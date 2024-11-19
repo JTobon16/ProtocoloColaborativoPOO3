@@ -13,7 +13,7 @@ public class Usuario_Sobrecargado {
         private String username;
         private String password;
         private String email;
-
+        
     // Constructor
     public Usuario_Sobrecargado(String username, String password, String email) {
         this.username = username;
@@ -30,7 +30,7 @@ public class Usuario_Sobrecargado {
     public boolean validarDatos() {
         return email.contains("@") && password.length() >= 8;
     }
-
+    
     // Getters
     public String getUsername() {
         return username;
